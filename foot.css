@@ -8,25 +8,26 @@
 }
 footer{
     position: relative;
-    bottom: 0px;
+    bottom: 0px; 
     width: 100%;
+    height: auto;
     background:#111;
 }
 .main-content{
     display: flex;
 }
 .main-content .box{
-    flex-basis:50%;
-    padding: 10px 20px;
+    flex-basis:40%;
+    padding: 10px 10px;
 }
 .box h2{
-    font-size: 1.125rem;
+    font-size: 1em;
     font-weight: 600;
     text-transform: uppercase;
 }
 
 .box .content{
-    margin: 20px 0 0 0;
+    margin: 10px 0 0 0;
 }
 .left .content p{
     text-align: justify;
@@ -66,7 +67,7 @@ footer{
     background: #f12020;
 }
 .center .content .text{
-    font-size: 1.0625rem;
+    font-size: 1rem;
     font-weight: 500;
     padding-left: 10px;
 }
@@ -74,7 +75,7 @@ footer{
     margin: 10px 0;
 }
 .right form .text{
-    font-size: 1.06;
+    font-size: 1em;
 
 }
 .right form .msg{
@@ -82,7 +83,7 @@ footer{
 }
 .right form input, .right form textarea{
     width: 100%;
-    font-size: 1.0625rem;
+    font-size: 1rem;
     background: #151515;
     padding-left: 10px;
     border:1px solid #222222
@@ -94,10 +95,10 @@ footer{
 .right form input{
     height: 35px;
 }
-.right form .btn{
+.right form .send-btn{
     margin-top: 10px;
 }
-.right form .btn button{
+.right form .send-btn button{
     height: 40px;
     width: 100%;
     border: none;
@@ -108,8 +109,9 @@ footer{
     cursor: pointer;
     transition: 0.3s;
 }
-.right form .btn button:hover{
+.right form .send-btn button:hover{
     background: #000;
 }
+
 
 
