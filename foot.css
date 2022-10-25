@@ -7,7 +7,7 @@
     font-family: 'Poppins',sans-serif;
 }
 footer{
-    position:fixed;
+    position: relative;
     bottom: 0px;
     width: 100%;
     background:#111;
